@@ -29,11 +29,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Medium_ClusteringNBA.jpg',
-    title: 'Classifying NBA Positions with a Gaussian Mixture Model',
-    info: '',
+    title: 'Looking at 80 Variables, Can We Define Players Based Upon How They Play?',
+    info: 'Like any game of skill, players play the game differently. In a sense, the loose style of play we recognize players as having (a ‘driving scorer’ or a ‘three point specialist’) are like personalities of play. Each player is more likely to do some things, and less likely to do others than the majority of players. These tendencies are like traits, defining how a player plays the game. We inherently notice some of these easily when watching (e.g., from behind the arc James Harden is likely to try a stepback, while Danny Green is more likely to catch and shoot), but there are likely patterns of play which are not readily visible. For these hidden patterns of play machine learning can be used to mathematically derive these patterns from measured data, grouping players into categories of similar play.',
     info2: '',
     url: 'https://medium.com/swlh/whats-your-basketball-personality-499fd943b34d',
     repo: 'https://github.com/dhutexas/NBA-Cluster-Analysis', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'NCAA2019.png',
+    title: 'Predicting the Madness of March: Insights from a Top 15% Kaggle Finish',
+    info: 'The NCAA tournament challenge is one of the most popular competitions on Kaggle each year. Prior work demonstrated the efficacy of ensemble models (Random Forest and Logistic Regression) in forecasting outcomes which improved when performing detailed feature importance analysis to reduce multicolinearity while maintaining explanatory power.',
+    info2: '',
+    url: 'https://github.com/dhutexas/NCAA_2019',
+    repo: 'https://github.com/dhutexas/NCAA_2019', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -41,8 +50,8 @@ export const projectsData = [
     title: 'How Do You Know What You Know?',
     info: 'After reading a text you have a general feeling of how well you comprehend what you read. Research commonly measures this estimate, but how did you come up with it? What cues did you use to estimate your level of learning?',
     info2: '',
-    url: '',
-    repo: 'https://github.com/dhutexas/NBA-Cluster-Analysis', // if no repo, the button will not show up
+    url: 'https://drive.google.com/file/d/1jKW1PAuoHuAltIr0PJvOef0tFLVG0hRW/view?usp=sharing',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,7 +60,7 @@ export const projectsData = [
     info: 'Learning in the classroom can be a boring experience. When we are bored or tuned out we fall prey to making silly mental mistakes. Are learners who enjoy problem solving and thinking through challenging tasks less likely to fall prey to these mental shortcuts?',
     info2: '',
     url: 'https://drive.google.com/file/d/1siT3GhY53hCMwojYcBNEySaCn-aw7jxQ/view',
-    repo: 'https://github.com/dhutexas/NBA-Cluster-Analysis', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
