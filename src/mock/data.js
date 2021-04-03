@@ -29,8 +29,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Medium_Upsets.png',
-    title: 'Looking at 80 Variables, Can We Define Players Based Upon How They Play?',
-    info: 'Like any game of skill, players play the game differently. In a sense, the loose style of play we recognize players as having (a ‘driving scorer’ or a ‘three point specialist’) are like personalities of play. Each player is more likely to do some things, and less likely to do others than the majority of players. These tendencies are like traits, defining how a player plays the game. We inherently notice some of these easily when watching (e.g., from behind the arc James Harden is likely to try a stepback, while Danny Green is more likely to catch and shoot), but there are likely patterns of play which are not readily visible. For these hidden patterns of play machine learning can be used to mathematically derive these patterns from measured data, grouping players into categories of similar play.',
+    title: 'Can Visualizing Key Variables in a New Way Help Us See Problems with Machine Learning Models?',
+    info: 'State-of-the-art machine learning models can predict binary events, such as who will win a basketball game, with incredible accuracy. However, it can be hard to measure the uncertainty around their point estimates, making it a challenge to decipher what went wrong when accuracy slumps. Using the 2021 Mens NCAA College Basketball Tournament, an event which obliterated the accuracy of many prior-season winning models, I demonstrate a method to define and visualize the uncertainty around predicted events which can be used to enhance the efficacy of modern methods',
     info2: '',
     url: 'https://towardsdatascience.com/can-we-see-an-upset-before-it-happens-predicting-the-madness-of-march-b16e89d972ec?sk=56d771d8bff9070212ab158a937dd8b0',
     repo: 'https://github.com/dhutexas/finding_upsets', // if no repo, the button will not show up
