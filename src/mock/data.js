@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'portfolio.png',
+  img: 'IMG_1400.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'Medium_Upsets.png',
     title: 'Can Visualizing Key Variables in a New Way Help Us See Problems with Machine Learning Models?',
     info: 'State-of-the-art machine learning models can predict binary events, such as who will win a basketball game, with incredible accuracy. However, it can be hard to measure the uncertainty around their point estimates, making it a challenge to decipher what went wrong when accuracy slumps. Using the 2021 Mens NCAA College Basketball Tournament, an event which obliterated the accuracy of many prior-season winning models, I demonstrate a method to define and visualize the uncertainty around predicted events which can be used to enhance the efficacy of modern methods',
-    info2: '',
+    info2: 'More info here.',
     url: 'https://towardsdatascience.com/can-we-see-an-upset-before-it-happens-predicting-the-madness-of-march-b16e89d972ec?sk=56d771d8bff9070212ab158a937dd8b0',
     repo: 'https://github.com/dhutexas/finding_upsets', // if no repo, the button will not show up
   },
